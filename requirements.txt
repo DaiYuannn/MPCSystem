@@ -1,0 +1,13 @@
+# 项目第三方依赖列表 (根据代码 import 推断)
+# 若需精确复现原环境，可再根据原环境实际版本进行固定。
+# 常规命名为 requirements.txt，此处按你的请求使用 requirement.txt。
+
+Django>=2.2,<4.0   # 使用到 django.*
+sympy              # 同态/数论相关算法
+pycryptodome       # Crypto.Random / Crypto.Util.number
+requests           # HTTP 请求
+psutil             # 系统资源信息
+Pillow             # PIL 图像处理
+
+# 下面模块均为 Python 标准库, 无需在此列出:
+# os, sys, json, time, hashlib, base64, random, sqlite3
